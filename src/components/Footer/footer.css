@@ -1,0 +1,36 @@
+.footer{
+    background-color: #232f3e;
+    width: 100%;
+    min-height: 250px;
+    border-top: 3px solid #4d4d4d;
+    border-bottom: 3px solid #4d4d4d;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    top: 180%;
+}
+
+.footer_links{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.link-area {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1366px) {
+    .link-area {
+        font-size: 13px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+  }

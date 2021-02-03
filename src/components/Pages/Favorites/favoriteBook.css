@@ -1,0 +1,38 @@
+.favoriteBook{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.favoriteBook_image{
+    object-fit: contain;
+    width: 130px;
+    height: 130px;
+    border: 1px solid #ccc;
+}
+.favoriteBook_title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.favoriteBook_info{
+    padding-left: 20px;
+}
+
+.favoriteBook_description{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.favoriteBook_author{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.favoriteBook_info > button{
+    background-color: #f0c14b;
+    border: 2px solid #a88734 #9c7e31 #846a29;
+    margin-top: 10px;
+}
